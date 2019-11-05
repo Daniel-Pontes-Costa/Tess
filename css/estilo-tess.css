@@ -1,0 +1,124 @@
+ .tess {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-top: 20%;
+    margin-left: -13%;
+    
+  }
+
+  to {
+    margin-top: 22%;
+    margin-left: -15%;
+   
+  }
+}   
+   
+
+.tess{
+  width: 150%;
+  
+}
+.tess-bg{
+  height: 550px;
+  background-color: #ffc600;
+  
+}
+      .bg-col1{
+        background-color: #16499a;
+      }
+      .bg-col2{
+        background-color: #199900;
+      }
+      .bg-col3{
+        background-color: #00a3a3;
+      }
+      .bg-col4{
+        background-color: #00792e;
+      }
+      .bg-fundo{
+        background-image: url("img/fundo.jpg");
+      }
+      .nav-cor{
+        background-color: #3104B4;
+      }
+      .footer-cor{
+          background-color: #F7FE2E;
+      }
+      .card-icon{
+      width: 10%;
+      height: 10%;
+      }
+      .card-img{
+      width: 40%;
+      }
+      .card-Title{
+        font-size: 12pt;
+      }
+      .card-corpo{
+         font-size: 10pt;
+      }
+      
+      .margem-tel{
+         margin-top: 1.5%;
+         margin-right: 41%;
+      }
+      .margem-email{
+         margin-top: 1.5%;
+         margin-right: 23%;
+      }
+      .margem-whats{
+         margin-top: 1.5%;
+         margin-right: 5%;
+      }
+      .post_it-txt{ 
+         position: absolute; 
+         top: 50px; 
+         left: 10%; 
+         right: 10%;
+         bottom: 10%;
+        
+      }   
+.borda{
+  border-style: solid;
+  border-width: 1px;
+  
+}
+
+
+
+
+.footer-fixo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sara{
+  margin-left: 50px;
+  border: solid 1px;
+  border-radius: 100px;
+  height: 400px;
+  background-color: #fff;
+}
+.olho-e{
+  border: solid 1px;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 100px;
+  width: 90px;
+  border-radius: 50px;
+}
+.olho-d{
+  border: solid 1px;
+  display: flex;
+  margin-left:  40%;
+  margin-bottom: 40px;
+  height: 10px;
+  width: 90px;
+  border-radius: 50px;
+}
